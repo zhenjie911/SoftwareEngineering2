@@ -22,5 +22,10 @@ public interface ShoppingCartService {
 	public void empty();
 
 	public double getPrice();
+	
+	public boolean filterPrice();
 
+	public double getLimit();
+	
+	public void setLimit(double limit);
 }
